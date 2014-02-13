@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+			<key>Title</key>
+			<string>Static Ice</string>
+			<key>URL</key>
+			<string>http://staticice.com.au/cgi-bin/search.cgi?q={popclip text}</string>
+		</dict>
+	</array>
+	<key>Extension Identifier</key>
+	<string>com.patrickkelso.popclip.extension.staticice</string>
+	<key>Extension Name</key>
+	<string>Static Ice</string>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+</dict>
+</plist>
